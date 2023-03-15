@@ -1,0 +1,51 @@
+.dashboard {
+  .body {
+    display: flex;
+    .wrapper {
+      flex: 7;
+
+      display: flex;
+      flex-direction: column;
+    }
+    .main {
+      flex: 8;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      background-color: #e5e5e5;
+      gap: 40px;
+      p {
+        margin-top: 20px;
+        font-size: 36px;
+        font-weight: 400;
+      }
+      .cards-wrapper {
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .card {
+          display: flex;
+          height: 100%;
+          flex-basis: 20%;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          border-radius: 20px;
+          h5 {
+            font-size: 24px;
+          }
+          h2 {
+            font-size: 96px;
+          }
+        }
+      }
+    }
+    .footer {
+      flex: 0.4;
+      background-color: #55d6c2;
+    }
+  }
+}
